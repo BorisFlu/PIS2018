@@ -2,7 +2,7 @@
 
 # Website 
 Have a loook at the website [here!](https://borisflu.github.io/PIS2018/) (still in improvement)
-<br>Or at the video demo [here]!
+<br>Or at the video demo [here!](https://vimeo.com/273300367)
 
 # Abstract 
 The goal of this project is to build a tool that allows users to explore filtered tropical forest satellite images. 
