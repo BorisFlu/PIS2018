@@ -60,7 +60,7 @@ function activation(){
             next_val = 0;
         }
         if(activ == "false"){
-            $( '#slideshow_image' ).attr( 'src' , 'img/VerificationWA/'+images[next_val]+'.png' );
+            $( '#slideshow_image' ).attr( 'src' , 'img/verificationWA/'+images[next_val]+'.png' );
             console.log("activation false",images[next_val])
             document.getElementById( "img_no" ).value = next_val;
             document.getElementById( "activ" ).value = "true";
