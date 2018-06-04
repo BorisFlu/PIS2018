@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Spotted Indigenous Personal Interaction Studio 2018</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/one-page-wonder.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/logo_image.css">
+
+    <script src="https://cdn.firebase.com/js/client/2.3.2/firebase.js"></script>
+
+    <style>
+        #map {
+            height: 400px;
+            width: 100%;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="diagram.html">Flow Diagram</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="exploration.html">Exploration</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="verification.html">Verification</a>
+                </li>
+                <li class="nav-item">
+                <li class="nav-item">
+                    <a class="nav-link" href="rd.html">Researches&Discoveries</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sign Up</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Log In</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<header class="exploration" style="height: 300px">
+    <div>
+        <h1 class="masthead-heading mb-0" align="center">Spotted Indigenous</h1>
+        <h2 class="masthead-subheading mb-0" align="center">Guided Exploration</h2>
+        <p class="m-0">Try to find hidden settlements using the map bellow! It is a collaborative map so we count on you to work on it conscientiously 😉</p>
+        <p class="m-0">If it is your first time, you can have a look at the instructions on the right!</p>
+    </div>
+</header>
+
+<!-- Content Row -->
+<div class="row">
+    <div class="col-md-7">
+        <div class="card h-100 text-center">
+            <div class="card-body">
+                <h2 class="card-title">Map</h2>
+                <div id="container">
+                    <div align='center'>
+                        <div id="map"></div>
+
+                        <script src="js/firebasemap.js"></script>
+
+                        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBO57ZoPYT9rHh4co_jtlW7OvxjaHbhzkg&libraries=visualization&callback=initMap" async defer>
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-5">
+        <div class="card h-100">
+            <div class="card-body">
+                <h2 class="card-title text-center">Instructions</h2>
+                <div>
+                <ul>
+                    <li style="color:red">
+                        <img src="img/mouse.png" class="logo">
+                        Use a mouse for a better experience
+                    </li>
+                    <li>
+                        <img src="img/hold.png" class="logo">
+                        Hold click to travel in the map</li>
+                    <li>
+                        <img src="img/points.png" class="logo">
+                        Start from already marked points</li>
+                    <li>
+                        <img src="img/river.png" class="logo">
+                        Follow rivers (toggle plan view)</li>
+                    <li>
+                        <img src="img/altitude.png" class="logo">
+                        Pay attention to altitude markers (toggle relief in map view)</li>
+                    <li style="color:red">
+                        <img src="img/click.png" class="logo">
+                        One click to mark settlements!</li>
+                </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- Footer -->
+<footer class="py-5 bg-black">
+    <div class="container">
+        <p class="m-0 text-center text-white small">Boris Fluckiger - Personal Interaction Studio - EPFL 2018</p>
+    </div>
+    <!-- /.container -->
+</footer>
+
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

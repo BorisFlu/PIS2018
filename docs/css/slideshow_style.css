@@ -1,0 +1,23 @@
+#slide_cont
+{
+    box-shadow:0px 0px 10px 0px silver;
+    width:300px;
+    height:300px;
+}
+#slideshow_image
+{
+    width:300px;
+    height:300px;
+}
+#slideshow_image2
+{
+    width:300px;
+    height:300px;
+}
+#prev_image,#next_image,#act_image
+{
+    width:100px;
+    height:40px;
+}
+
+
