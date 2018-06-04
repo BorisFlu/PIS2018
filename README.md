@@ -12,6 +12,6 @@ The goal of this project is to build a tool that allows users to explore filtere
 <br>The algorithm is based on transfer learning and a convolutional neural network. Trained on 1700 data, the accuracy on the validation set is close to 98%.
 
 # Code documentation 
-You can find the commented code for the front-end under the "docs" folder or have a look at the commented notebook used to train the model. (back-end part).
+You can find the commented code for the front-end under the "docs" folder or have a look at the commented notebook used to train the model (back-end part).
 
 Personal Interaction Studio Project 2018: "Spotted Indigenous"
