@@ -1,4 +1,8 @@
-# PIS2018 - Spotted Indigenous
+# Spotted Indigenous
+**EPFL | Media & Design Lab | Personal Interaction Studio 2018**
+Course Tutors:
+Immanuel Koh 
+Jeffrey Huang  
 
 # Website 
 Have a loook at the website [here!](https://borisflu.github.io/PIS2018/) (still in improvement)
