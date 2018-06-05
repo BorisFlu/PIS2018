@@ -1,5 +1,6 @@
 # Spotted Indigenous
 **EPFL | Media & Design Lab | Personal Interaction Studio 2018**
+<br>
 <br>Course Tutors:
 <br>Immanuel Koh 
 <br>Jeffrey Huang  
